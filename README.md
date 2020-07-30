@@ -3,6 +3,11 @@
 - Modify build files according to UnityProject/buildiOS_modifications/
 - Follow the Unity step by steps explanations for iOS [iOS](docs/ios.md) 
 
+Solution for Xamarin.Forms iOS can be found [here](https://github.com/FlorianAuer/XamarinUnityBinding)
+
+These steps reduce the API of the UnityFramework to make it simpler to bind. Feel free to enhance this. Pull requests accepted, but keep [XamarinUnityBinding](https://github.com/FlorianAuer/XamarinUnityBinding) in mind.
+
+Thanks to alle the people in this [thread](https://forums.xamarin.com/discussion/161967/ios-binding-unity-as-a-library)
 
 # Unity as a Library integration example to iOS and Android #
 
