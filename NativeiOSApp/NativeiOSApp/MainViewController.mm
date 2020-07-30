@@ -195,7 +195,8 @@ NSDictionary* appLaunchOpts;
     [[self ufw] registerFrameworkListener: self];
     [NSClassFromString(@"FrameworkLibAPI") registerAPIforNativeCalls:self];
     
-    [[self ufw] runEmbeddedWithArgc: gArgc argv: gArgv appLaunchOpts: appLaunchOpts];
+    // [[self ufw] runEmbeddedWithArgc: gArgc argv: gArgv appLaunchOpts: appLaunchOpts];
+    [[self ufw] runEmbedded];
     
     // set quit handler to change default behavior of exit app
     [[self ufw] appController].quitHandler = ^(){ NSLog(@"AppController.quitHandler called"); };
