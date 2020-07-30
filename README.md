@@ -1,6 +1,7 @@
-# Manual steps necessary to run with Xamarin
+# Manual steps necessary to run with Xamarin iOS
 - Open UnityProject with Unity and export as iOS build
 - Modify build files according to UnityProject/buildiOS_modifications/
+- Follow the Unity step by steps explanations for iOS [iOS](docs/ios.md) 
 
 
 # Unity as a Library integration example to iOS and Android #
